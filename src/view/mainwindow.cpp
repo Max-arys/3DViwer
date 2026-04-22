@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "view/mainwindow.h"
 
 #include <QColorDialog>
 #include <QComboBox>
@@ -13,6 +13,7 @@
 #include <QLabel>
 #include <QMessageBox>
 #include <QPushButton>
+#include <QRadioButton>
 #include <QSlider>
 #include <QSpacerItem>
 #include <QSpinBox>

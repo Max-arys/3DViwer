@@ -1,8 +1,10 @@
-#include "wcontroller.h"
+#include "controller/wcontroller.h"
 
 #include <QColor>
 #include <QFileDialog>
 #include <QFileInfo>
+
+#include "view/mainwindow.h"
 
 namespace s21 {
 
