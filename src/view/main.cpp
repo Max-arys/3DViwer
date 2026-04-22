@@ -2,11 +2,12 @@
 #include <memory>
 
 #include "controller/wcontroller.h"
-#include "gif_recorder.h"
-#include "imagesaver.h"
-#include "mainwindow.h"
 #include "model/display_settings.h"
 #include "model/model.h"
+#include "model/transform.h"
+#include "view/gif_recorder.h"
+#include "view/imagesaver.h"
+#include "view/mainwindow.h"
 
 int main(int argc, char *argv[]) {
   QApplication app(argc, argv);

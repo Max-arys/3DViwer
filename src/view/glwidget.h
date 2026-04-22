@@ -1,8 +1,6 @@
 #ifndef GLWIDGET_H
 #define GLWIDGET_H
 
-#include <QCoreApplication>
-#include <QFileInfo>
 #include <QMatrix4x4>
 #include <QOpenGLBuffer>
 #include <QOpenGLFunctions_3_3_Core>

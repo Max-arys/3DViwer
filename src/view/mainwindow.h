@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QRadioButton>
 #include <memory>
 
 class QSlider;
@@ -14,7 +13,6 @@ class QVBoxLayout;
 class QComboBox;
 class QSpinBox;
 class QTabWidget;
-class QVBoxLayout;
 class QHBoxLayout;
 
 namespace s21 {

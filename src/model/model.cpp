@@ -1,10 +1,10 @@
 #include "model.h"
 
+#include <assimp/Importer.hpp>
 #include <assimp/postprocess.h>
 #include <assimp/scene.h>
 
 #include <QDebug>
-#include <assimp/Importer.hpp>
 #include <set>
 
 namespace s21 {

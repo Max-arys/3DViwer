@@ -6,7 +6,7 @@
 #include <QFileInfo>
 #include <QPainter>
 
-#include "glwidget.h"
+#include "view/glwidget.h"
 
 namespace s21 {
 

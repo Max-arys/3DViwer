@@ -1,5 +1,7 @@
 #include "transform.h"
 
+#include <cmath>
+
 namespace s21 {
 
 Transform3D::Transform3D(QObject *parent) : QObject(parent) {}

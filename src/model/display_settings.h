@@ -2,7 +2,6 @@
 #define DISPLAY_SETTINGS_H
 
 #include <QColor>
-#include <QCoreApplication>
 #include <QObject>
 #include <QSettings>
 

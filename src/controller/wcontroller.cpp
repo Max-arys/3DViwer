@@ -1,5 +1,6 @@
 #include "wcontroller.h"
 
+#include <QColor>
 #include <QFileDialog>
 #include <QFileInfo>
 

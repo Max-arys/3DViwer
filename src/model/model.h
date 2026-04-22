@@ -4,7 +4,6 @@
 #include <QObject>
 #include <QQuaternion>
 #include <QVector3D>
-#include <memory>
 #include <string>
 #include <vector>
 

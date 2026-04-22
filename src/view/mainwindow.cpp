@@ -7,8 +7,9 @@
 #include <QDoubleSpinBox>
 #include <QFileDialog>
 #include <QFileInfo>
+#include <QFrame>
 #include <QGroupBox>
-#include <QHBoxLayout>  // Горизнтальный макет
+#include <QHBoxLayout>
 #include <QLabel>
 #include <QMessageBox>
 #include <QPushButton>
@@ -17,7 +18,7 @@
 #include <QSpinBox>
 #include <QStatusBar>
 #include <QTabWidget>
-#include <QVBoxLayout>  // Вертикальный макет
+#include <QVBoxLayout>
 
 #include "controller/wcontroller.h"
 #include "view/gif_recorder.h"

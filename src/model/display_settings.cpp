@@ -1,5 +1,6 @@
 #include "display_settings.h"
 
+#include <QCoreApplication>
 #include <QDebug>
 
 namespace s21 {

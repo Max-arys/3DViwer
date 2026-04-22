@@ -2,14 +2,16 @@
 #define WCONTROLLER_H
 
 #include <QObject>
+#include <QColor>
 #include <memory>
 
 #include "model/display_settings.h"
 #include "model/model.h"
 #include "model/transform.h"
-#include "view/mainwindow.h"
 
 namespace s21 {
+
+class MainWindow;
 
 class MainWindowController : public QObject {
   Q_OBJECT
