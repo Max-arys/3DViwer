@@ -18,15 +18,15 @@ find_package(assimp REQUIRED)
 find_package(GIF REQUIRED)
 
 qt6_add_executable(${PROJECT_NAME}
-    model/model.cpp
-    model/transform.cpp
-    model/display_settings.cpp
-    controller/wcontroller.cpp
-    view/mainwindow.cpp
-    view/glwidget.cpp
-    view/imagesaver.cpp
-    view/gif_recorder.cpp
-    view/main.cpp
+    src/model/model.cpp
+    src/model/transform.cpp
+    src/model/display_settings.cpp
+    src/controller/wcontroller.cpp
+    src/view/mainwindow.cpp
+    src/view/glwidget.cpp
+    src/view/imagesaver.cpp
+    src/view/gif_recorder.cpp
+    src/view/main.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
@@ -37,4 +37,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     OpenGL::GL
     assimp::assimp
     ${GIF_LIBRARIES}
+)
+
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
 )

@@ -4,10 +4,10 @@
 #include <QObject>
 #include <memory>
 
-#include "../model/display_settings.h"
-#include "../model/model.h"
-#include "../model/transform.h"
-#include "../view/mainwindow.h"
+#include "model/display_settings.h"
+#include "model/model.h"
+#include "model/transform.h"
+#include "view/mainwindow.h"
 
 namespace s21 {
 

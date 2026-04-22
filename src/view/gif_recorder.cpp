@@ -212,11 +212,11 @@ void GIFRecorder::writeGifFile() {
   unsigned char nsExtension[19] = {
       0x21, 0xFF, 0x0B,  // Extension introducer, Application extension, Block
                          // size
-      'N',  'E',  'T',  'S', 'C', 'A',
-      'P',  'E',  '2',  '.', '0',  // Application identifier
-      0x03, 0x01,                  // Sub-block size, always 1 for loop
-      0x00, 0x00,                  // Loop count (0 = infinite)
-      0x00                         // Block terminator
+      'N', 'E', 'T', 'S', 'C', 'A', 'P', 'E', '2', '.',
+      '0',         // Application identifier
+      0x03, 0x01,  // Sub-block size, always 1 for loop
+      0x00, 0x00,  // Loop count (0 = infinite)
+      0x00         // Block terminator
   };
 
   if (EGifPutExtension(gif, APPLICATION_EXT_FUNC_CODE, 16, nsExtension + 3) ==

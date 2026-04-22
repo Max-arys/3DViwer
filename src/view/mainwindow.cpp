@@ -19,10 +19,10 @@
 #include <QTabWidget>
 #include <QVBoxLayout>  // Вертикальный макет
 
-#include "../controller/wcontroller.h"
-#include "gif_recorder.h"
-#include "glwidget.h"
-#include "imagesaver.h"
+#include "controller/wcontroller.h"
+#include "view/gif_recorder.h"
+#include "view/glwidget.h"
+#include "view/imagesaver.h"
 
 namespace s21 {
 

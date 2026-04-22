@@ -11,9 +11,9 @@
 #include <QOpenGLWidget>
 #include <memory>
 
-#include "../model/display_settings.h"
-#include "../model/model.h"
-#include "../model/transform.h"
+#include "model/display_settings.h"
+#include "model/model.h"
+#include "model/transform.h"
 
 namespace s21 {
 
